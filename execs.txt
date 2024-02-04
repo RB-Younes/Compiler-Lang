@@ -1,0 +1,20 @@
+cd  C:\Users\LATITUDE\Desktop\TPCOMPIL
+
+flex lexical.l
+
+bison -d synt.y
+
+gcc lex.yy.c synt.tab.c -lfl -ly  -o compIsil2020.exe
+
+compIsil2020.exe<expLangage.txt
+
+
+
+
+DECLARATION: DEC_VAR DECLARATION
+            | DEC_ARRAY DEC_CST
+            | DEC_CST DEC_ARRAY 
+            | DEC_CST
+            | DEC_ARRAY
+            |
+;
