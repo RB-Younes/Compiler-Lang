@@ -9,7 +9,7 @@ The objective of this project is to develop a mini-compiler that performs variou
 - Parallel processing for symbol table management
 - Error handling at various compilation phases
   
-#For more details about the project objectives, read the file named "ProjetCompilMaster2022.pdf".
+# For more details about the project objectives, read the file named "ProjetCompilMaster2022.pdf".
 
 ## Contributors
 
